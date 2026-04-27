@@ -1,0 +1,22 @@
+{
+  "-1001234567890": {
+    "chat_title": "My Group",
+    "packs": {
+      "static": {
+        "pack_number": 0,
+        "current_pack_name": "My_Group_s_by_mybot",
+        "sticker_count": 45
+      },
+      "animated": {
+        "pack_number": 1,
+        "current_pack_name": "My_Group_a1_by_mybot",
+        "sticker_count": 23
+      },
+      "video": {
+        "pack_number": 0,
+        "current_pack_name": "My_Group_v_by_mybot",
+        "sticker_count": 12
+      }
+    }
+  }
+}
