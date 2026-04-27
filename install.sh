@@ -21,6 +21,15 @@ else
     echo "✓ Python3 установлен"
 fi
 
+# Проверка python3-venv
+if ! python3 -m venv --help &> /dev/null; then
+    echo "❌ python3-venv не установлен. Устанавливаю..."
+    sudo apt update
+    sudo apt install -y python3-venv
+else
+    echo "✓ python3-venv установлен"
+fi
+
 if ! command -v git &> /dev/null; then
     echo "❌ Git не установлен. Устанавливаю..."
     sudo apt update
