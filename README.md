@@ -1,5 +1,9 @@
 # Телеграм бот для сохранения стикеров в стикерпак
 
+[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![python-telegram-bot](https://img.shields.io/badge/python--telegram--bot-21.0-blue.svg)](https://python-telegram-bot.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Бот автоматически сохраняет все стикеры, отправленные в группу, в общий стикерпак.
 
 ## Возможности
